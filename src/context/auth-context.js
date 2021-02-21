@@ -14,7 +14,7 @@ function AuthProvider({ children }) {
         .auth()
         .currentUser?.getIdToken()
         .then((idToken) => {
-          axios.post(`${process.env.url}/user/auth/with-firebase`, {
+          axios.post(`${process.env.REACT_APP_BACKEND_URL}/user/auth/with-firebase`, {
             token: idToken,
             name: user.displayName,
             email: user.email,

@@ -25,7 +25,7 @@ export default function SearchResult() {
 
   useEffect(() => {
     axios
-      .post(`${process.env.url}/reservation`, {
+      .post(`${process.env.REACT_APP_BACKEND_URL}/reservation`, {
         location: query[1],
         startdate:query[3],
         enddata:query[5],

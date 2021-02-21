@@ -17,7 +17,7 @@ export default function SearchResultItem({ reservation }) {
           <img
             width="100%"
             height="100%"
-            src={`${process.env.url}/reservation/${_id}/image`}
+            src={`${process.env.REACT_APP_BACKEND_URL}/reservation/${_id}/image`}
             alt="apartment"
           />
         </div>

@@ -11,7 +11,7 @@ export default function Filtter(props) {
   const [reservations, setReservations] = useState([]);
   useEffect(() => {
     axios
-      .post(`${process.env.url}/reservation/type`, {
+      .post(`${process.env.REACT_APP_BACKEND_URL}/reservation/type`, {
         type: props.match.params.type,
        
       })

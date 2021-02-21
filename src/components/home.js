@@ -5,11 +5,13 @@ import LiveCards from "./LiveCards/Livecards";
 import Footer from "./footer/footer";
 import '../index.css';
 import { useHistory } from "react-router-dom"
+
 //import  Search  from "./search/search";
 
 
 
 const Home=() =>{
+    console.log(`${process.env.REACT_APP_BACKEND_URL}`)
     const history=useHistory()
 return(
     <div>

@@ -11,8 +11,10 @@ import { AuthProvider } from "./context/auth-context";
 import Profile from "./components/profile/profile";
 import Filtter from "./components/filtter/filtter";
 import MyFancyComponent from "./components/map/map";
+import dotenv from  'dotenv'
 
 const App = () => {
+  
   return (
     <div>
       <AuthProvider>

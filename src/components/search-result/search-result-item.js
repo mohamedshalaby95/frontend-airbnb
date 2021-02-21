@@ -18,7 +18,7 @@ export default function SearchResultItem({ reservation }) {
             width="80%"
             height="90%px"
             className='rounded'
-            src={`${process.env.url}/reservation/${_id}/image`}
+            src={`${process.env.REACT_APP_BACKEND_URL}/reservation/${_id}/image`}
             alt="apartment"
           />
         </div>

@@ -7,14 +7,17 @@ import { getAuthToken } from "../../auth";
 import Navbar from "../navbar";
 //  import LiveCards from "./LiveCards/Livecards";
 const Profile = () => {
+  
   let history = useHistory();
   const [user, setUser] = useState(null);
   async function getuser() {
     axios
-      .get(`${process.env.url}/reservation/user`, {
+      .get(`${process.env.REACT_APP_BACKEND_URL}/reservation/user`, {
         headers: {
           "x-auth-token": await getAuthToken(),
+          
         },
+        
       })
       .then((res) => {
         setUser(res.data);

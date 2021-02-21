@@ -12,7 +12,7 @@ export default function HostingScreen() {
 
   async function getHostings() {
     axios
-      .get(`${process.env.url}/reservation/hosting`, {
+      .get(`${process.env.REACT_APP_BACKEND_URL}/reservation/hosting`, {
         headers: {
           "x-auth-token": await getAuthToken(),
         },
@@ -73,7 +73,7 @@ function NewHosting({ updateHostings }) {
     
     
     axios
-      .post(`${process.env.url}/reservation/hosting`, data, {
+      .post(`${process.env.REACT_APP_BACKEND_URL}/reservation/hosting`, data, {
         headers: {
           "x-auth-token": await getAuthToken(),
         },
@@ -271,7 +271,7 @@ function HostingList({ hostings }) {
                         className="img-fluid"
                         width="100%"
                         height="100%"
-                        src={`${process.env.url}/reservation/${hosting._id}/image`}
+                        src={`${process.env.REACT_APP_BACKEND_URL}/reservation/${hosting._id}/image`}
                         alt="apartment"
                         />
                     </div>
