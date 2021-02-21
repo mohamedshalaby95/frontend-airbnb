@@ -1,0 +1,39 @@
+  footer{
+    background-color: #f7f7f7;
+    padding: 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-top: 1px solid rgb(236, 233, 233);
+}
+ .footer-head{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.footer-link{
+    margin: 10px;
+    margin-left: 0;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.footer-privacy{
+    margin: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.footer-privacy > p,a {
+    display: inline;
+    padding: 5px;
+    font-size: 14px;
+}
+.footer-privacy > a:hover{
+    color:rgb(167, 163, 163);
+    text-decoration: underline;
+}
+.footer-icons{
+    float: right;
+}
+.footer-icons > a{
+    color: black;
+}

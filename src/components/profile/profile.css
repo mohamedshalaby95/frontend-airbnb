@@ -1,0 +1,13 @@
+.profile{
+    margin-top: 100px;
+}
+.imagestyle{
+    width: 18rem !important;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.profilebtn{
+    margin-left: auto !important;
+    float: right;
+}

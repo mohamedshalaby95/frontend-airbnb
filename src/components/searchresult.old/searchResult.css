@@ -1,0 +1,96 @@
+.header-searchResult {
+  position:fixed;
+  height: 70px;
+  z-index: 100;
+  top: 0;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color:rgb(40, 87, 87);
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px white;
+}
+.side-stays{
+  top:120px;
+}
+.side-stays div h1{
+  font-family:Arial, Sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 45px;
+  margin-top: -12px;
+}
+.side-stays div h1 span{
+  text-transform: capitalize;
+}
+.button {
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.button button {
+  background-color: white;
+  color: black;
+  border:1px solid lightslategrey;
+  border-radius: 20px;
+  padding:5px 15px 5px 15px ;
+  margin-left: 20px;
+}
+.button button:hover {
+  background-color:darkgrey;
+}
+.DivImg img{
+  width: 65%;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.DivDesc p{
+  margin-left: -100px;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 5px;
+  color:darkgrey;
+}
+.P_Price{
+  font-weight: bold;
+  float: right;
+  margin-right: -130px;
+}
+.rate{
+  font-weight: bold;
+  float: right;
+  margin-right:295px;
+}
+.DivDesc hr{
+  margin-bottom: -10px;
+  margin-left: -100px;
+  width: 50px;
+}
+.star {
+  color: gold;
+  margin-top: 25px;
+  margin-left: -80px;
+}
+.side-map{
+  top:120px;
+  background-color:rgb(40, 87, 87);  
+  
+}
+.error{
+  height: 500px;
+  color: black;
+  text-shadow: 2px 2px 5px red;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+.error i{
+  font-size: 35px;
+}
+
+

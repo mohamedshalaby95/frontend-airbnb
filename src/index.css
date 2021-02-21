@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+     /* overflow: hidden; */
+}
+.main-background{
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../src/image/homeimage.jpg');
+  background-size: 100% 100%;
+  background-position: center; 
+  
+  height: 100vh;
+  position: relative;
+
+}
+
+/* .banner-component{
+  position: absolute;
+  top:50%;
+  left:10%;
+} */
+
+.live-cards-section {
+  display: flex;
+  padding: 30px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}

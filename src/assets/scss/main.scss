@@ -1,0 +1,17 @@
+$font-size-base: 14;
+
+$color-dark: #343a40;
+
+$theme-colors: (
+  // 'primary': #FF0040,
+  'red': #FF0040,
+  'danger': #FFBD01,
+  'info': #39f,
+  'light': #e9e9e9,
+  'light-gray': #f8f9fc,
+  'dark-gray': #363636,
+  'black': #1d1d1d,
+  'white': #fff
+);
+
+@import '~bootstrap/scss/bootstrap';

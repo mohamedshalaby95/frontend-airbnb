@@ -1,0 +1,17 @@
+.searchFil{
+    margin-top:80px;
+}
+
+
+.errorr{
+    height: 500px;
+    color: black;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: "Times New Roman", Times, serif;
+}
+.errorr i{
+    font-size: 35px;
+}

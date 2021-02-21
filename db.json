@@ -1,0 +1,61 @@
+{
+    "hoisting": [
+      { 
+          "id": 1,
+          "location": "cairo",
+          "guest":2,
+          "period":1,
+          "hoistig": [
+              {"hoistigid":"a1","type":"Entire apartment in Al Agouzah","address":"EZ Residence-Rooftop Apt. Side Nile View","description":"4 guests.2 bedrooms.2 beds.2 baths","services":"WiFi.Air conditioning.Kitchen.Free parking","price":"$54/night","rate":"4.99" ,"image":"EZ Residence"},
+              {"hoistigid":"a2","type":"Entire apartment in Ad Doqi A","address":"Small studio on the nile river","description":"2 guests.1 bedroom.0 bed.1 bath","services":"WiFi.Air conditioning.Kitchen.Elevator","price":"$30/night","rate":"3.78","image":"Small studio"},
+              {"hoistigid":"a3","type":"Entire apartment in Second New Cairo","address":"Cozy two bedroom apartment in madinaty","description":"3 guests.2 bedrooms.3 beds.1 bath","services":"WiFi.Air conditioning.Kitchen.Free parking","rate":"5.00","price":"$37/night","image":"Cozy"},
+              {"hoistigid":"a4","type":"Entire serviced apartment in Zamalek","address":"Newly Refurbished One Bedroom Studio-1-","description":"3 guests.1 bedroom.1 bed.1 bath","services":"WiFi.Air conditioning.Kitchen.Pets allowed","price":"$62/night","rate":"4.74","image":"Newly Refurbished"},
+              {"hoistigid":"a5","type":"Private room in Zamalek, Cairo","address":"Sunny & quite apt in beautiful zam","description":"2 guests.1 bedroom.0 beds.1 bath","services":"WiFi.Air conditioning.Kitchen.Free parking","price":"$27/night","rate":"2.99","image":"Sunny & quite"}
+            ]
+          
+      },
+      { 
+        "id": 2,
+        "location": "alex",
+        "guest":1,
+        "period":2,
+        "hoistig": [
+            {"hoistigid":"a1","type":"Entire apartment in Sidi Beshr Bahri","address":"Breathtaking Wide Seaview Apartment","description":"6 guests.3 bedrooms.5 beds.1.5 baths","services":"WiFi.Air conditioning.Kitchen.Free parking","price":"$50/night","rate":"3.72","image":"Breathtaking"},
+            {"hoistigid":"a2","type":"Private room in Al Mamurah","address":"Master Bedroom - Maamoura Beach","description":"1 guest.1 bedroom.1 bed.2 baths","services":"WiFi.Free parking.Kitchen.Breakfast","price":"$15/night","rate":"4.32","image":"Master Bedroom"},
+            {"hoistigid":"a3","type":"Entire vacation home in Alexandria","address":"Musicians hub","description":"5 guests.2 bedrooms.3 beds.1 bath","services":"WiFi.Air conditioning.Kitchen.Free parking","price":"$60/night","rate":"2.98","image":"musicians hub"},
+            {"hoistigid":"a4","type":"Entire apartment in Sidi Beshr Bahri","address":"Beach front flat with amazing view in Sidi Beshri","description":"5 guests.3 bedrooms.4 beds.1 bath","services":"WiFi.Kitchen.Elevator.Washer","price":"$75/night","rate":"5.00","image":"Beach front fla"},
+            {"hoistigid":"a5","type":"Entire apartment in Sidi Beshr Bahri","address":"Spectacular Wide Seaview Apartment","description":"6 guests.3 bedrooms.5 beds.1.5 baths","services":"WiFi.Air conditioning.Kitchen.Free parking","price":"$57/night","rate":"3.99","image":"Spectacular"}
+          ]
+        
+    },
+    { 
+        "id": 3,
+        "location": "aswan",
+        "guest":1,
+        "period":1,
+        "hoistig": [
+            {"hoistigid":"a1","type":"Entire serviced apartment in Aswan","address":"Farm House (apartment * 4 )","description":"4 guests.2 bedrooms.3 beds.1 bath","services":"WiFi.Air conditioning.Kitchen.Self check-in","price":"$42/night","rate":"4.62" ,"image":"Farm House"},
+            {"hoistigid":"a2","type":"Entire apartment in Shayakhah Oula","address":"Nile view apartment","description":"3 guests.4 bedrooms.11 beds.2 dhared baths","services":"Air conditioning.Kitchen.Washer","price":"$45/night","rate":"5.00","image":"Nile view"},
+            {"hoistigid":"a3","type":"Private room in EG","address":"Aragheed Nubian Guest House","description":"5 guests.2 bedrooms.3 beds.1 bath","services":"WiFi.Air conditioning.Kitchen.Free parking","price":"$30/night","rate":"3.87","image":"Aragheed Nubian"},
+            {"hoistigid":"a4","type":"Private room in Aswan","address":"The Mango Guesthouse","description":"2 guests.1 bedroom.1 bed.1 private bath","services":"WiFi.Air conditioning.Kitchen.Pets allowed","price":"$30/night","rate":"4.95","image":"Mango Guesthouse"},
+            {"hoistigid":"a5","type":"Entire apartment in Shayakhah Oula","address":"NOBATIA Guest house","description":"4 guests.2 bedrooms.4 beds.1 bath","services":"WiFi.Air conditioning.Kitchen.Free parking","price":"$25/night","rate":"3.36","image":"NOBATiA"}
+          ]
+        
+    },
+    { 
+        "id": 4,
+        "location": "luxor",
+        "guest":3,
+        "period":4,
+        "hoistig": [
+            {"hoistigid":"a1","type":"Private room in Luxor","address":"West Bank Villa with Private Pool in Luxor","description":"2 guests.1 bedroom.2 beds.3.5 baths","services":"WiFi.Air conditioning.Kitchen.Pool","price":"$15/night","rate":"4.21","image":"West Bank Villa"},
+            {"hoistigid":"a2","type":"Entire apartment in Luxor","address":"Amazing Natural life Studio in Luxor","description":"2 guests.1 bedroom.1 bed.1 bath","services":"Air conditioning.Kitchen.Washer","price":"$13/night","rate":"4.96","image":"Amazing Nature"},
+            {"hoistigid":"a3","type":"Entire apartment in Luxor","address":"Villa next to Nilo - BLUFLAT","description":"2 guests.1 bedroom.1 bed.1 bath","services":"WiFi.Air conditioning.Kitchen.Free parking","price":"$19/night","rate":"3.99","image":"BLU FLAT"},
+            {"hoistigid":"a4","type":"Dome house in Luxor","address":"Villa Amira, Luxor West Bank. Best place to relax!","description":"12 guests.5 bedrooms.7 beds.4 baths","services":"WiFi.Air conditioning.Kitchen.Pool","price":"$53/night","rate":"5.00","image":"Villa Amira"},
+            {"hoistigid":"a5","type":"Entire apartment in Luxor","address":"Villa Doret","description":"2 guests.1 bedroom.1 bed.1 bath","services":"WiFi.Air conditioning.Kitchen.Free parking","price":"$15/night","rate":"4.54","image":"Villa Doret"}
+          ]
+        
+    }
+     
+    ]
+  }
