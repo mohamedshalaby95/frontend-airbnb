@@ -11,7 +11,7 @@ import { useHistory } from "react-router-dom"
 
 
 const Home=() =>{
-    console.log(`${process.env.REACT_APP_BACKEND_URL}`)
+    
     const history=useHistory()
 return(
     <div>

@@ -40,12 +40,12 @@ export default class MyFancyComponent extends React.PureComponent {
     super(props);
     this.state = {
       result: [],
-      lat: 26.42231,
-      lng: 29.227089,
+      lat: 0,
+      lng: 0,
      
       isMarkerShown: false,
     };
-    console.log(this.props.location)
+  
    
   }
 
@@ -56,10 +56,10 @@ export default class MyFancyComponent extends React.PureComponent {
     const axios = require("axios");
     const params = {
       access_key: "297b67d829c2337b2ea79235d44614b0",
-      query: `${this.props.location}}, Egypt`,
+      query: `${this.props.location}, Egypt`,
       
     };
-    console.log("this from map and get query location"+this.props.location)
+    
 
     axios
       .get("http://api.positionstack.com/v1/forward", { params })
@@ -93,7 +93,7 @@ export default class MyFancyComponent extends React.PureComponent {
   
 
   render() {
-    console.log ("Response = " + JSON.stringify(this.state.result));
+   
     return (
       <MyMapComponent
         allLocations={this.state.result}

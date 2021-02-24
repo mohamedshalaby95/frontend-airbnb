@@ -23,27 +23,27 @@ export default function SearchResult() {
     };
   }, []);
 
+ 
   useEffect(() => {
+    const res = {};
+    query.forEach((q, i) => {
+      if (q === "location") res["location"] = query[i + 1].trim();
+      if (q === "nOfGuests") res["nOfGuests"] = query[i + 1].trim();
+      if (q === "startdate") res["startdate"] = query[i + 1].trim();
+      if (q === "enddata") res["enddata"] = query[i + 1].trim();
+    });
+    console.log(res)
     axios
-      .post(`${process.env.REACT_APP_BACKEND_URL}/reservation`, {
-        location: query[1],
-        startdate:query[3],
-        enddata:query[5],
-        nOfGuests: query[7],
-      
-        
-        
-      })
+      .post(`${process.env.REACT_APP_BACKEND_URL}/reservation`, res)
+      .then((data) => {
+        setReservations(data.data);
+      });
+  }, []);
       
     
      
-      .then((data) => {
-      
-        setReservations(data.data);
-        
-      });
-  }, [  ]);
-  console.log("this from search result send query"+query[1])
+ 
+  
 
   return (
     <div>
@@ -51,7 +51,7 @@ export default function SearchResult() {
         <Navbar  lightBg />
       </div>
       
-      <div className="row">
+      <div className="row mt-5">
         <div className="leftside col-md-12 col-lg-8">
         <div className=" mt-3">
         <header>
